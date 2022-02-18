@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(170, 170, 170);
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .my-form {
+    background-color: rgb(59, 56, 73);
+    padding: 5rem;
+    border-radius: 2em;
+    display: flex;
+    gap: 3em;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+    transition: ease-in-out .5s;
+
+    &:hover{
+        transform: scale(1.03);
+    }
+
+    label{
+        align-self: center;
+    }
+
+    input{
+        padding: 1rem;
+    }
+
+    button{
+        border-radius: 1em;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        padding: 1em;
+        color: rgb(58, 58, 58);
+        box-shadow: 0 0 15px black;
+    }
+  }
